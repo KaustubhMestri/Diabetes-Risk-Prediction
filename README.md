@@ -8,7 +8,6 @@ An end-to-end ML pipeline that preprocesses clinical data, trains and evaluates 
 
 ## Key Features
 - Predicts diabetes risk from 8 clinical input features
-- Compares multiple ML models (Logistic Regression, Random Forest, SVM, XGBoost, etc.)
 - Serialized model for fast, real-time inference
 - Clean Flask web UI for user-friendly predictions
 - Detailed Jupyter notebooks covering EDA, preprocessing, and model training
