@@ -1,1 +1,11 @@
-<h1>Person is: {{result}}</h1>
+<!doctype html>
+<html>
+  <head>
+    <title>Prediction Result</title>
+  </head>
+  <body>
+    <h2>Prediction:</h2>
+    <p>Person is: <strong>{{ result }}</strong></p>
+    <a href="{{ url_for('home') }}">Go Back</a>
+  </body>
+</html>
